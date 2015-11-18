@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata minClientVersion="2.5">
+    <id>AssemblyGitVersioning</id>
+    <version>1.0.0</version>
+	<releaseNotes></releaseNotes>
+    <title>Assembly Git Versioning</title>
+    <description>Adds current Git hash to assembly version, so it looks like 1.0.0.0-e7f45a6</description>
+    <authors>Max Shmelev</authors>
+    <owners>Max Shmelev</owners>
+    <projectUrl>https://github.com/mshmelev/AssemblyGitVersioning</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Max Shmelev, 2015</copyright>
+    <tags>AOP Aspect</tags>
+	<dependencies>
+      <dependency id="MSBuildTasks" version="1.4.0.128" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="AssemblyGitVersioning.targets" target="build\net45\AssemblyGitVersioning.targets" />
+  </files>
+</package>
