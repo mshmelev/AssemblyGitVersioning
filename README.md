@@ -9,8 +9,9 @@ To easily find a GIT commit which your binary assembly relates to, it would be v
 This solution appends commit hash to your assembly's version and puts it all together to AssemblyInformationalVersion attribute, so in your assembly file properties you would have something like "Product version: 1.0.0.0-e7f45a6".
 
 # How to Use
-Add nuget package to your project:
+1. Add nuget package to your project:
 `Install-Package AssemblyGitVersioning`
+2. Add `GeneratedAssemblyInfo.cs` to `.gitignore` file
 
 # How It Works
 It dynamically creates GeneratedAssemblyInfo.cs file, extracts version from AssemblyVersion attribute, and adds current GIT commit hash before each build.
