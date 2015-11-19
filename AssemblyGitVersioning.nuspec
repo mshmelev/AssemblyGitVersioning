@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/mshmelev/AssemblyGitVersioning</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Max Shmelev, 2015</copyright>
-    <tags>AOP Aspect</tags>
+    <tags>Assembly Git Hash Version Versioning</tags>
 	<dependencies>
       <dependency id="MSBuildTasks" version="1.4.0.128" />
     </dependencies>
