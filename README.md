@@ -12,6 +12,17 @@ This solution appends commit hash to your assembly's version and puts it all tog
 1. Add nuget package to your project:
 `Install-Package AssemblyGitVersioning`
 2. Add `GeneratedAssemblyInfo.cs` to `.gitignore` file
+3. Create `.gitignore` file in `packages` folder with the following content:
+```yaml
+# ignore all files
+*
+# do not ignore directories
+!*/
+# do not ignore build targets
+!**/build/**
+# do not ignore gitignore
+!*.gitignore
+```
 
 # How It Works
 It dynamically creates GeneratedAssemblyInfo.cs file, extracts version from AssemblyVersion attribute, and adds current GIT commit hash before each build.
