@@ -20,7 +20,7 @@ This solution appends commit hash to your assembly's version and puts it all tog
 # do not ignore build targets
 !**/build/**
 # do not ignore gitignore
-!*.gitignore
+!.gitignore
 ```
 
 # How It Works

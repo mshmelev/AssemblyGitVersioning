@@ -2,7 +2,7 @@
 <package >
   <metadata minClientVersion="2.5">
     <id>AssemblyGitVersioning</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 	<releaseNotes></releaseNotes>
     <title>Assembly Git Versioning</title>
     <description>Adds current Git hash to assembly version, so it looks like 1.0.0.0-e7f45a6</description>
