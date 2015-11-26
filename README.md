@@ -12,7 +12,7 @@ This solution appends commit hash to your assembly's version and puts it all tog
 1. Add nuget package to your project:
 `Install-Package AssemblyGitVersioning`
 2. Add `GeneratedAssemblyInfo.cs` to `.gitignore` file
-3. Create `.gitignore` file in `packages` folder with the following content:
+3. If you use auto package restore, create `.gitignore` file in `packages` folder with the following content:
 ```yaml
 # ignore all files
 *
