@@ -2,7 +2,7 @@
 <package >
   <metadata minClientVersion="2.5">
     <id>AssemblyGitVersioning</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 	<releaseNotes></releaseNotes>
     <title>Assembly Git Versioning</title>
     <description>Adds current Git hash to assembly version, so it looks like 1.0.0.0-e7f45a6</description>
@@ -18,5 +18,8 @@
   </metadata>
   <files>
     <file src="AssemblyGitVersioning.targets" target="build\net45\AssemblyGitVersioning.targets" />
+	<file src="InstallReadme.txt" target="readme.txt" />
+	<file src="Install.gitignore" target="tools\" />
+	<file src="Install.ps1" target="tools\" />
   </files>
 </package>
